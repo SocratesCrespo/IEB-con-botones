@@ -1,0 +1,78 @@
+<DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<meta charset="utf-8"/>
+	<link rel="stylesheet" href="css/estilo.css" />
+	<script src="http://code.jquery.com/jquery-1.7.2.min.js"></script>
+	<script type="text/javascript">
+		$(document).on('ready',function (){
+				$('button').on('click',function(){
+					var nuevo_e = $('<section><article id="contenedor"><h2>Estoy bebiendo</h2><div id="botones"><button class="p" onclick="one(this)";><p>Im playing</p></button></div></article></<section>')
+					$('#e1').append(nuevo_e)	
+				})
+
+			})
+
+	</script>
+
+
+	<style type="text/css">
+		/*body,html
+		{
+			background: #000;
+			color: #FFF;
+			margin: 0;
+			padding: 0;
+		}
+
+		ol
+		{
+			display: block;
+			width: 500px;
+			margin: 0 auto;
+		}
+
+		ol li
+		{
+			background: #088a29;
+			margin: 5px auto;
+			height: 30px;
+			width: 100%;
+		}
+
+		button
+		{
+			display: block;
+			margin: 0 auto;
+			width: 80px;
+		}
+
+		div
+		{
+			background: #FE2E64;
+			height: 50px;
+			display: block;
+			margin: 2px auto;
+		}*/
+	</style>
+</head>
+<body>
+	<ol>
+		<li>Elemento 1</li>
+		<li>Elememto 2</li>
+		<li>Elemento 3</li>
+		<li>Elemento 4</li>
+	</ol>
+
+	<button id="test">Ejecutar</button>
+
+	<div id="e1">
+		<p>Div 1</p>
+	</div>
+
+	<div id="e2">
+		<p>Div 2</p>
+	</div>
+</body>
+</html
